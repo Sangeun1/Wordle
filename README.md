@@ -1,13 +1,13 @@
 # Wordle
 
----
 
 Wordle is a word puzzle game that gained popularity for its simplicity and addictiveness. The game consists of guessing a hidden five-letter word within six attempts. Each time you guess a word, you receive feedback on which letters are correct and in the correct position (indicated in green), which letters are correct but in the wrong position (indicated in yellow), and which letters are not in the word at all (indicated in gray).
 
 
+
+
 ## Installation
 
----
 
 Before playing Wordle, you need to install Eclipse and set up the project. Here's how:
 
@@ -20,9 +20,10 @@ Before playing Wordle, you need to install Eclipse and set up the project. Here'
 4. **Import the Project**: Go to "File" > "Import," select "General" > "Existing Projects into Workspace," and choose the Wordle project directory.
 
 
+
+
 ## Running the Game
 
----
 
 To run the Wordle game in Eclipse, follow these steps:
 
@@ -35,6 +36,8 @@ To run the Wordle game in Eclipse, follow these steps:
 4. **Run**: Click "Run" to start the game.
 
 5. **Follow the Game Instructions**: The Wordle game should launch, and you can follow the in-game instructions to play.
+
+
 
 ## How to Play Wordle
 
@@ -62,9 +65,10 @@ Wordle is a word puzzle game where your goal is to guess a hidden five-letter wo
 Now that you know how to play Wordle, launch the game in Eclipse and test your word-solving skills. Good luck!
 
 
+
+
 ## Model/View/Controller
 
----
 
 1.	A main class (named Wordle) that serves as our view, creates the Model and Controller, and deals with user input and output.
 2.	A model class (named WordleModel) that stores the representation of the hidden word, which letters have been guessed and responds to guesses about that word.
@@ -75,7 +79,6 @@ Now that you know how to play Wordle, launch the game in Eclipse and test your w
 
 ## Notes
 
----
 
 - Java16
 - JavaFX17
